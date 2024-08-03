@@ -13,3 +13,6 @@ class Solution:
                     backTrack(i + 1, path + [current_str])
         backTrack(0, [])
         return result
+obj = Solution()
+re = obj.allPalindromicPerms("aab")
+print(re)
